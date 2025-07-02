@@ -20,7 +20,7 @@ class VideoViewModel : ViewModel() {
     private val _uiState = MutableStateFlow(VideoUiState())
     val uiState: StateFlow<VideoUiState> = _uiState.asStateFlow()
 
-    private val apiKey = "GKNDJjingRvTNexvVuYW05cBZaKU2XaM9Z3ExL68kGev9iZy0pU24l4F"
+    private val apiKey = "YOUR_PEXELS_API_KEY"
 
     init {
         loadVideos()
